@@ -1,0 +1,30 @@
+{
+  "name": "RedFox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build/index.js",
+    "build": "tsc",
+    "dev": "tsnd src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nayarasantos18/RedFox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nayarasantos18/RedFox/issues"
+  },
+  "homepage": "https://github.com/Nayarasantos18/RedFox#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0"
+  }
+}
